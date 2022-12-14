@@ -30,15 +30,61 @@ body{
     background-color:rgb(213, 217, 221); 
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
     margin-top: 0;
     padding-top: 0;
 }
-.page {
+
+h1{background-color: gainsboro;
+   margin: 10px; 
+   margin-bottom: 20px;
+   border-bottom: 5px solid rgb(6, 77, 6);
 	
 }
 .entete{
-    background-color: hotpink;
+    background-color :darkgrey;
+    padding: 10px;
+
 }
+.introduction{
+    font-style: italic;
+    border: 2px solid  green ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.text{
+    color: yellow;
+}
+strong{
+    color: red;
+    text-emphasis-color: red;
+    font-weight:lighter;
+}
+h2{
+   color: darkgreen;
+   font-size:x-large; 
+   margin: 20px;
+   font-variant: small-caps;
+}
+em{
+    color: blueviolet;
+  text-emphasis-style:unset;
+}
+a{
+    font-weight: bold;
+    
+}
+a:hover { 
+    background-color:yellowgreen;
+    text-decoration:none;
+
+
+
+}
+
+
 .colonnes {
     background-color: deepskyblue;
 }
@@ -46,10 +92,12 @@ body{
     background-color: gold;
 }
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: rgb(218, 228, 218);
+    padding: 15px;
 }
 .pieddepage{
-    background-color: lightgray;
+    background-color: rgb(205, 198, 198);
+    line-height: 50px;
 }
 
 
